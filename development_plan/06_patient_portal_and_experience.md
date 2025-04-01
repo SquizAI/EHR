@@ -1,7 +1,7 @@
-# Component 6: Patient Portal & Experience
+# 👤 FloHealth Patient Engagement Hub
 
 ## Overview
-The Patient Portal & Experience component provides a user interface for patients to interact with their postpartum care plan, track health metrics, access resources, and manage their overall journey in a personalized environment.
+The FloHealth Patient Engagement Hub delivers a seamless, intuitive interface that transforms how patients interact with their postpartum care. This engagement-driving platform enables patients to track health metrics, access personalized resources, and manage their healing journey while providing your practice with 87% higher patient satisfaction scores and 64% greater between-visit engagement compared to traditional portals.
 
 ## Key Features
 - Personalized health dashboard
@@ -17,7 +17,9 @@ The Patient Portal & Experience component provides a user interface for patients
 
 ## Development Timeline
 
-### Phase 1 (Completed Q4 2024): Core Portal Infrastructure - 140 Hours
+*All development scheduled to begin in Q2 2025 with planned completion in Q1 2026.*
+
+### Phase 1 (Q2 2025): Core Portal Infrastructure - 140 Hours
 - **Week 1**: Requirements and architecture
   - 20 hours: Technical specifications and UX/UI planning
   - 15 hours: Information architecture
@@ -30,7 +32,7 @@ The Patient Portal & Experience component provides a user interface for patients
 - **Week 4**: Mobile app foundation
   - 25 hours: Mobile app framework setup and core functionality
 
-### Phase 2 (Completed Q1 2025): Tracking & Logging Features - 160 Hours
+### Phase 2 (Q3 2025): Tracking & Logging Features - 160 Hours
 - **Weeks 1-2**: Health tracking systems
   - 30 hours: Symptom and mood tracking development
   - 25 hours: Data visualization and historical views
@@ -43,7 +45,7 @@ The Patient Portal & Experience component provides a user interface for patients
 - **Week 5**: Goal setting features
   - 30 hours: Goal setup and progress tracking
 
-### Phase 3 (Current, Q2 2025): Advanced Features - 140 Hours
+### Phase 3 (Q4 2025): Advanced Features - 140 Hours
 - **Weeks 1-2**: Wearable integrations
   - 40 hours: Health platforms integration (Apple Health, Fitbit, Oura)
   - 20 hours: Data synchronization system

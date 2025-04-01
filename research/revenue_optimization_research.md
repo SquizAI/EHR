@@ -4,7 +4,7 @@
 
 ## Executive Summary
 
-This research document presents comprehensive findings on revenue optimization strategies for postpartum telehealth platforms based on market analysis conducted through 2024-2025. As the postpartum telehealth market matures, sophisticated pricing, packaging, and revenue optimization strategies have emerged as critical differentiators for sustainable platform success.
+This research document presents comprehensive findings on revenue optimization strategies for postpartum telehealth platforms based on market analysis conducted through 2024-2025. By implementing the strategic pricing approaches outlined here, FloHealth will position your organization to maximize revenue while delivering exceptional value to patients. As the postpartum telehealth market matures, sophisticated pricing, packaging, and revenue optimization strategies have emerged as critical differentiators for sustainable platform success.
 
 ## Market Context
 
@@ -193,6 +193,18 @@ flowchart TD
     C[Market Conditions] --> B
     D[Competitive Analysis] --> B
     E[Historical Conversion] --> B
+    B --> F[FloHealth Dynamic Pricing]
+    F --> G[Provider Dashboard]
+    F --> H[Administrative Backend]
+    
+    classDef primary fill:#4F46E5,stroke:#4338CA,color:#FFFFFF
+    classDef input fill:#10B981,stroke:#059669,color:#FFFFFF
+    classDef output fill:#F59E0B,stroke:#D97706,color:#FFFFFF
+    
+    class B primary
+    class A,C,D,E input
+    class F,G,H output
+```
     
     B --> F[Dynamic Price Point]
     B --> G[Custom Value Proposition]

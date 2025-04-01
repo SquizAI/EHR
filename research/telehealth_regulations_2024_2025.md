@@ -4,7 +4,7 @@
 
 ## Executive Intelligence Brief
 
-The telehealth regulatory environment has reached an inflection point in 2025, with the convergence of AI governance frameworks, permanent telehealth policies, and sophisticated technology-specific regulations. This analysis maps the complex regulatory terrain affecting next-generation postpartum telehealth platforms and outlines strategic compliance pathways.
+The telehealth regulatory environment has reached an inflection point in 2025, with the convergence of AI governance frameworks, permanent telehealth policies, and sophisticated technology-specific regulations. This analysis maps the complex regulatory terrain affecting FloHealth's implementation and outlines strategic compliance pathways that will give your organization a competitive advantage in the evolving postpartum telehealth market.
 
 ```mermaid
 flowchart TD
@@ -96,10 +96,10 @@ The FDA's Center for Devices and Radiological Health established the first compr
 ```mermaid
 pyramid
     title FDA AI/ML Healthcare Risk Classification
-    Class III: High Risk<br>Autonomous Diagnostic/Treatment Decision-Making : 5
-    Class II: Moderate Risk<br>Clinical Decision Support Tools & Predictive Algorithms : 15
-    Class I: Low Risk<br>Administrative & Non-Diagnostic AI Assistants : 40
-    Exempt: Minimal Risk<br>Educational & Basic Support Tools : 40
+    "Class III: High Risk<br>Autonomous Diagnostic/Treatment Decision-Making" : 5
+    "Class II: Moderate Risk<br>Clinical Decision Support Tools & Predictive Algorithms" : 15
+    "Class I: Low Risk<br>Administrative & Non-Diagnostic AI Assistants" : 40
+    "Exempt: Minimal Risk<br>Educational & Basic Support Tools" : 40
 ```
 
 For postpartum care platforms, most conversational AI agents, educational tools, and support systems qualify as Class I or Exempt, but predictive algorithms for postpartum depression risk or hemorrhage detection fall under Class II regulations requiring:
