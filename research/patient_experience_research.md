@@ -310,22 +310,22 @@ flowchart TD
     subgraph design["Design Intelligence Hierarchy"]
         A["Ambient Intelligence"]
         B["Cognitive Support"]
-        C["Emotional Intelligence"]    
-        D["Contextual Adaptation"]    
+        C["Emotional Intelligence"]
+        D["Contextual Adaptation"]
     end
 
-    subgraph principles ["Core Experience Principles"]    
-        E["Single-Hand Optimization"]    
-        F["Minimal Cognitive Load"]    
-        G["Fatigue-Resistant Design"]    
-        H["Judgment-Free Interaction"]    
+    subgraph principles["Core Experience Principles"]
+        E["Single-Hand Optimization"]
+        F["Minimal Cognitive Load"]
+        G["Fatigue-Resistant Design"]
+        H["Judgment-Free Interaction"]
     end
 
-    subgraph implementation ["Technical Implementation"]    
-        I["Voice-First Interaction"]    
-        J["Computer Vision Assistance"]    
-        K["Predictive Interface Adaptation"]    
-        L["Sentiment-Aware Responses"]    
+    subgraph implementation["Technical Implementation"]
+        I["Voice-First Interaction"]
+        J["Computer Vision Assistance"]
+        K["Predictive Interface Adaptation"]
+        L["Sentiment-Aware Responses"]
     end
 
     A --> E
