@@ -49,44 +49,38 @@ The 2025 FloHealth Growth Intelligence platform incorporates cutting-edge AI cap
 
 ```mermaid
 graph TB
-    subgraph data["Data Sources"]
-        WebBehavior["Web Behavior"]
-        MarketData["Market Intelligence"]
-        UserActions["User Interactions"]
-        BusinessMetrics["Business Metrics"]
-    end
-    subgraph Data ["Data Sources"]    
-        WebBehavior["Website & App Behavior"]    
-        Sales["Sales Activities"]    
-        Provider["Provider Engagement"]    
-        Market["Market Data"]    
-        External["External Signals"]    
+    subgraph DataSources["Data Sources"]
+        WebBehavior["Website & App Behavior"]
+        Sales["Sales Activities"]
+        Provider["Provider Engagement"]
+        Market["Market Data"]
+        External["External Signals"]
     end
 
-    subgraph Processing ["Intelligence Processing"]    
-        Collection["Real-time Collection"]    
-        ETL["Intelligent ETL"]    
-        DataLake["Healthcare-Specific Data Lake"]    
-        ML["ML Processing Pipeline"]    
-        AnomalyDetection["Anomaly Detection"]    
+    subgraph Processing["Intelligence Processing"]
+        Collection["Real-time Collection"]
+        ETL["Intelligent ETL"]
+        DataLake["Healthcare-Specific Data Lake"]
+        ML["ML Processing Pipeline"]
+        AnomalyDetection["Anomaly Detection"]
     end
 
-    subgraph Intelligence ["Business Intelligence"]    
-        MarketMap["Market Opportunity Mapping"]    
-        Acquisition["Acquisition Analytics"]    
-        Engagement["Engagement Optimization"]    
-        Retention["Retention Intelligence"]    
-        Revenue["Revenue Optimization"]    
+    subgraph Intelligence["Business Intelligence"]
+        MarketMap["Market Opportunity Mapping"]
+        Acquisition["Acquisition Analytics"]
+        Engagement["Engagement Optimization"]
+        Retention["Retention Intelligence"]
+        Revenue["Revenue Optimization"]
     end
 
-    subgraph Activation ["Activation Layer"]    
-        Strategy["Strategic Recommendations"]    
-        Automation["Marketing Automation"]    
-        Alerts["Intelligent Alerting"]    
-        Simulation["Strategy Simulation"]    
+    subgraph Activation["Activation Layer"]
+        Strategy["Strategic Recommendations"]
+        Automation["Marketing Automation"]
+        Alerts["Intelligent Alerting"]
+        Simulation["Strategy Simulation"]
     end
 
-    Data --> Processing
+    DataSources --> Processing
     Processing --> Intelligence
     Intelligence --> Activation
 
@@ -95,7 +89,7 @@ graph TB
     classDef intelligence fill:#10B981,stroke:#059669,color:#FFFFFF
     classDef activation fill:#EC4899,stroke:#DB2777,color:#FFFFFF
     
-    class Data data
+    class DataSources data
     class Processing processing
     class Intelligence intelligence
     class Activation activation
